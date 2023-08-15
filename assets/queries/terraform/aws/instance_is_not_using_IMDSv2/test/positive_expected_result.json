@@ -1,0 +1,14 @@
+[
+	{
+		"queryName": "Instance Use IMDSv1 Protocol",
+		"severity": "MEDIUM",
+		"line": 5,
+		"fileName": "positive1.tf"
+	},
+	{
+		"queryName": "Instance Use IMDSv1 Protocol",
+		"severity": "MEDIUM",
+		"line": 5,
+		"fileName": "positive2.tf"
+	}
+]

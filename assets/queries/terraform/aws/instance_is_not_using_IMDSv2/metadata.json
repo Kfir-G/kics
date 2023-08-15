@@ -1,0 +1,11 @@
+{
+    "id": "",
+    "queryName": "Instance Use IMDSv1 Protocol",
+    "severity": "MEDIUM",
+    "category": "Insecure Configurations",
+    "descriptionText": "AWS Instances should not be set to IMDSv1 protocol, because it is vulnerable to server-side request forgery (SSRF) attacks, and it is important to update to the more secure IMDSv2 which uses session authentication to protect against open firewalls, reverse proxies, and SSRF vulnerabilities.",
+    "descriptionUrl": "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#http_tokens",
+    "platform": "Terraform",
+    "descriptionID": "",
+    "cloudProvider": "aws"
+  }
